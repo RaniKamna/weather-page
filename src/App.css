@@ -1,0 +1,128 @@
+.App {
+  background-color: #202123;
+  margin: 3%;
+}
+
+.left-container{
+  display: flex;
+  width: 100%;
+}
+
+.left-container img{
+  margin-top: 10%;
+  width: 100%;
+  height: auto;
+}
+
+.degree{
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #e7eaec;
+  margin-left: 1%;
+}
+
+.degree-type{
+  margin-left: 1%;
+  width: 5%;
+  margin-top: 1.7%;
+  color: #e7eaec;
+}
+
+.main-details p{
+  color: #999ca2;
+  margin-bottom: 4px;
+  margin-top: 1px;
+}
+
+.main-details{
+  margin-top: 1.5%;
+  width: 100%;
+  margin-left: 1%;
+}
+
+.navbar-container{
+  width: 100%;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  color: #999ca2;
+  padding-left: 5px;
+}
+
+.nav-links li{
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.active{
+  border-bottom: 4px solid #d8bb45;
+}
+
+.weeklydetail-container{
+  display: flex;
+  gap: 3%;
+  width: 100%;
+}
+
+.weeklydetail-container div{
+  cursor: pointer;
+}
+
+.weeklydetail-container div .day{
+  margin: 0;
+  color:  #e7eaec;
+  font-size: 20px;
+  margin-left: 13%;
+  width: 60%;
+  margin-right: 0;
+  text-align: center;
+}
+
+.weeklydetail-container div .fullday-degree{
+  color: #999ca2;
+  margin-left: 20%;
+  margin-top: 0;
+  width: 50%;
+  margin-right: 0;
+  text-align: center;
+}
+
+.weeklydetail-container img{
+  width: 100%;
+}
+
+.fullday-degree span{
+  color: #e7eaec;
+}
+
+.activecard{
+  background-color: #303134;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .main-details{
+    width: 60%;
+  }
+
+  .left-container div img{
+    display: none;
+  }
+
+  .degree-type{
+    width: 15%;
+  }
+
+  .weeklydetail-container{
+    display: block;
+  }
+
+  .weeklydetail-container div{
+    width: 50%;
+    margin: 0 auto;
+  }
+}

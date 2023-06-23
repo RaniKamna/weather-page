@@ -1,0 +1,13 @@
+background color : #202123
+
+degree color : #e7eaec
+
+
+text color : #999ca2
+
+graph color : #d8bb45
+down graph color : #49422b
+
+#272626: color behind the image of weather page
+
+hover sun color : #303134
